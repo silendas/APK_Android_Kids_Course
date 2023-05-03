@@ -1,0 +1,71 @@
+<ion-header [translucent]="true" no-border class="ion-no-border">
+  <div class="head p-2">
+    <div class="d-flex">
+      <ion-buttons [routerLink]="['/home']">
+        <ion-icon
+          name="chevron-back-circle-outline"
+          style="font-size: 40px"
+        ></ion-icon>
+      </ion-buttons>
+      <h2 class="h2-header">My Profile</h2>
+    </div>
+  </div>
+</ion-header>
+
+<ion-content [fullscreen]="true"> 
+  <div class="container text-center">
+    <div class="mt-4 card p-3" style="background-color: #9ED5C5; border: none;">
+      <div class="justify-content-center">
+        <img class="img-profile text-center" alt="" width="200px" height="200px">
+      </div>
+      <div class="d-flex justify-content-center">
+      <h3 style="font-size: 30px; font-weight:bold;">Gotou Hitori</h3><ion-icon name="create-outline" class="btn-edit ms-3" style="font-size: 20px; margin-top: 22px;"></ion-icon>
+      </div>
+    </div>
+    <div class="card text-center mt-3 p-2" style="background-color: #BCEAD5; border: none;">
+      <table class="table text-start ms-3 me-3">
+        <tr>
+          <td class="" style="width: 60px;">
+            Age 
+          </td>
+          <td>
+            :<input type="text" value="4" style="width: 30px;" class="text-center"> Year
+          </td>
+        </tr>
+        <tr>
+          <td class="w-25">
+            Birth Date
+          </td>
+          <td>
+            :<input type="date" value="2018-08-03" class="w-50">
+          </td>
+        </tr>
+        <tr>
+          <td class="w-25">
+            Hobby
+          </td>
+          <td>
+            :<input type="text" placeholder="Your Hobby..." class="w-75">
+          </td>
+        </tr>
+        <tr>
+          <td class="w-25">
+            Phone
+          </td>
+          <td>
+            :<input type="text" value="08811793634" class="w-75">
+          </td>
+        </tr>
+        <tr>
+          <td class="w-25">
+            Mail
+          </td>
+          <td>
+            :<input type="text" value="gotouhitorii@gmail.com" style="width: 200px;">
+          </td>
+        </tr>
+      </table>
+      <button class="w-100 btn-save" [routerLink]="['/home']">Save Changes</button>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,19 @@
+<ion-content [fullscreen]="true">
+    <div class="container h-100">
+      <div class="header text-center pt-3">
+        <p class="header-text">Enter Your Name</p>
+      </div>
+      <ion-item class="item-content">
+        <ion-label position="floating">First Name</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item class="item-content">
+        <ion-label position="floating">Last Name</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <div class="text-end">
+        <button class="btn mt-3 me-2 w-25" [routerLink]="['/login']">Cancel</button>
+        <button class="btn mt-3 w-25" [routerLink]="['/register2']">Next</button>
+      </div>
+    </div>
+</ion-content>

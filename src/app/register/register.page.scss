@@ -1,0 +1,40 @@
+ion-item{
+    --background:#fff;
+}
+
+ion-item:hover{
+    --background:white;
+}
+
+ion-input{
+    --background-color:#fff;
+    --color: black;
+}
+
+.container{
+    background: url('../../assets/bg-reg.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60%;
+}
+
+.item-content{
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.header-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.btn{
+    border: none;
+    transition: 0.3 ease-out;
+    background-color: #F0EBCE;
+}
+
+.btn:hover{
+    background-color: #FDFDBD;
+}

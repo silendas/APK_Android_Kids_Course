@@ -1,0 +1,76 @@
+<ion-header [translucent]="true">
+  <div class="head p-2">
+    <div class="d-flex">
+      <ion-buttons [routerLink]="['/home']">
+        <ion-icon
+          name="chevron-back-circle-outline"
+          style="font-size: 40px"
+        ></ion-icon>
+      </ion-buttons>
+      <h2 class="h2-header">Setting</h2>
+    </div>
+  </div>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="">
+    <div class="item-div">
+      <ion-item>
+        <ion-label>Language</ion-label>
+        <ion-select placeholder="Language">
+          <ion-select-option value="english"
+            >English</ion-select-option
+          >
+          <ion-select-option value="france" 
+            >France</ion-select-option
+          >
+          <ion-select-option value="japan"
+            >Japan</ion-select-option
+          >
+          <ion-select-option value="indonesia"
+            >Indonesia</ion-select-option
+          >
+          <ion-select-option value="arabic"
+            >Arabic</ion-select-option
+          >
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Dark Mode</ion-label>
+        <ion-toggle slot="end" class="toggle"></ion-toggle>
+      </ion-item>
+    </div>
+
+    <div class="item-div mt-2">
+      <ion-item>
+        <ion-label lines="none">Use Answer Key?</ion-label>
+        <ion-checkbox slot="end" class="checkbox"></ion-checkbox>
+      </ion-item>
+    </div>
+
+    <div class="item-div mt-2">
+      <ion-item>
+        <ion-label class="volume" position="stacked" lines="none"
+          >Volume</ion-label
+        >
+        <ion-range></ion-range>
+      </ion-item>
+    </div>
+
+    <div class="item-div mt-2">
+      <ion-item button detail="false" class=" w-100">
+          <ion-icon name="help-outline"></ion-icon>
+          <h3 class="ms-2">Help</h3>
+      </ion-item>
+      <ion-item button detail="false" class=" w-100">
+        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+        <h3 class="ms-2">Contact Us</h3>
+    </ion-item>
+    <ion-item button detail="false" class=" w-100">
+      <ion-icon name="information-circle-outline"></ion-icon>
+      <h3 class="ms-2">About Us</h3>
+  </ion-item>
+    </div>
+  </div>
+</ion-content>

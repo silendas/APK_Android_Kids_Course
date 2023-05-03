@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <div class="head p-2">
+    <div class="d-flex">
+      <ion-buttons [routerLink]="['/home']">
+        <ion-icon name="chevron-back-circle-outline" style="font-size: 40px;"></ion-icon>
+      </ion-buttons>    
+      <h2 class="h2-header">Search</h2>
+    </div>
+    <ion-searchbar placeholder="Let's study now" class="mt-1" color="black"></ion-searchbar>
+  </div>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container mt-2">
+    <div class="w-100 d-flex p-1" style="border-bottom: 1px solid;">
+      <div>History</div>
+      <div class="clear">
+        <label class="btn btn-clear">Clear</label>
+      </div>
+    </div>
+    <ion-item button detail="false" lines="none" class="mt-1">
+      <ion-label class="ms-2">
+        <h3>Games</h3>
+      </ion-label>
+      <ion-icon name="close-outline" slot="end" class="btn-x"></ion-icon>
+    </ion-item>
+    <ion-item button detail="false" lines="none">
+      <ion-label class="ms-2">
+        <h3>Letters</h3>
+      </ion-label>
+      <ion-icon name="close-outline" slot="end" class="btn-x"></ion-icon>
+    </ion-item>
+  </div>
+</ion-content>

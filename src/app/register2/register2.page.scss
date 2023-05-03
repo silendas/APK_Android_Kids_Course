@@ -1,0 +1,36 @@
+.container{
+    background: url('../../assets/bg-reg.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-position: 47%;
+    padding-top: 30%;
+}
+
+.lbl-header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lbl-content{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input{
+    background-color: #fff;
+    font-size: 20px;
+    color: #000;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.btn{
+    border: none;
+    transition: 0.3 ease-out;
+    background-color: #F0EBCE;
+}
+
+.btn:hover{
+    background-color: #FDFDBD;
+}

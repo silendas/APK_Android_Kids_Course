@@ -1,0 +1,55 @@
+<ion-content [fullscreen]="true" style="--background: #B9E0FF;">
+    <div class="head p-2">
+      <div class="d-flex">
+        <ion-buttons [routerLink]="['/home']">
+          <ion-icon
+            name="chevron-back-circle-outline"
+            style="font-size: 40px"
+          ></ion-icon>
+        </ion-buttons>
+        <h2 class="h2-header">Reward</h2>
+      </div>
+    </div>
+  <div class="container h-100 mt-3  text-center"> 
+    <div class="card kepala p-3">
+      <div>
+        <img src="../../assets/reward/cup.png" class="mt-2" alt="" width="150px" height="150px">
+        <div class="txt-header m-3">
+          Complete Your Mission
+          <br>
+          And Get Rewards
+        </div>
+      </div>
+    </div>
+    <div class="card cont p-3" style="background-color: #432C7A;">
+      <div class="d-flex">
+        <img src="../../assets/reward/gold-medal.png" alt="" width="80px" height="80px">
+        <div class="p-2 ms-3 d-block w-100">
+          <div class="text-judul text-white">Complete the Letters</div>
+          <button [routerLink]="['/letters']" class="w-100 mt-1 p-2 justify-content-start" style="border-radius: 10px; background-color:#F0FF42; font-weight: bold;">Completed</button>
+        </div>
+      </div>
+      <div class="mt-3 d-flex">
+        <img src="../../assets/reward/gold-medal.png" alt="" width="80px" height="80px">
+        <div class="p-2 ms-3 d-block w-100">
+          <div class="text-judul text-white">Complete the Vocab</div>
+          <button [routerLink]="['/vocab']" class="w-50 mt-1 p-2 justify-content-start" style="border-radius: 10px; background-color:#F0FF42; font-weight: bold;">50%</button>
+        </div>
+      </div>
+      <div class="mt-3 d-flex">
+        <img src="../../assets/reward/gold-medal.png" alt="" width="80px" height="80px">
+        <div class="p-2 ms-3 d-block w-100">
+          <div class="text-judul text-white">Complete the Numbers</div>
+          <button [routerLink]="['/numbers']" class="w-50 mt-1 p-2 justify-content-start" style="border-radius: 10px; background-color:#F0FF42; font-weight: bold;">50%</button>
+        </div>
+      </div>
+      <div class="mt-3 d-flex">
+        <img src="../../assets/reward/gold-medal.png" alt="" width="80px" height="80px">
+        <div class="p-2 ms-3 d-block w-100">
+          <div class="text-judul text-white">Complete the Shapes</div>
+          <button [routerLink]="['/shapes']" class="w-75 mt-1 p-2 justify-content-start" style="border-radius: 10px; background-color:#F0FF42; font-weight: bold;">75%</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,51 @@
+.head{
+    background-color: #B9E0FF;
+}
+
+ion-searchbar{
+    padding: 0;
+    background: #eeee;
+    color: black;
+}
+
+.btn-icon{
+    background-color: aquamarine;
+}
+
+.h2-header{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    width: 100%;
+    top: -3%;
+}
+
+.clear{
+    width: 100%;
+    text-align: end;
+}
+
+.btn-clear{
+    margin-top: -1%;
+    padding: 3px;
+    width: 70px;
+    height: 100%;
+    background-color: #EEEEEE;
+    box-shadow:none;
+}
+
+.btn-x{
+    width: 15px;
+    height: 15px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.btn-x:hover{
+    background-color: #FCE700;
+}
+
+.btn-clear:hover{
+    background-color: #FCE700;
+}

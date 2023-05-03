@@ -1,0 +1,50 @@
+<ion-header [translucent]="true">
+  <div class="head p-2">
+    <div class="d-flex">
+      <ion-buttons [routerLink]="['/home']">
+        <ion-icon
+          name="chevron-back-circle-outline"
+          style="font-size: 40px"
+        ></ion-icon>
+      </ion-buttons>
+      <h2 class="h2-header">Notification</h2>
+    </div>
+  </div>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container text-center">
+    <div class="card mt-2">
+      <ion-item button lines="none">
+        <ion-icon name="mail-unread-outline"></ion-icon>
+        <ion-label class="ms-3">
+          <h3>Hello SmartKids, let's start learning numbers</h3>
+        </ion-label>
+      </ion-item>
+    </div>
+    <div class="card mt-2">
+      <ion-item button lines="none">
+        <ion-icon name="mail-unread-outline"></ion-icon>
+        <ion-label class="ms-3">
+          <h3>Learn letters and get rewards</h3>
+        </ion-label>
+      </ion-item>
+    </div>
+    <div class="card mt-2">
+      <ion-item button lines="none">
+        <ion-icon name="mail-unread-outline"></ion-icon>
+        <ion-label class="ms-3">
+          <h3>30% discount for new users, let's join now</h3>
+        </ion-label>
+      </ion-item>
+    </div>
+    <div class="card mt-2">
+      <ion-item button lines="none">
+        <ion-icon name="mail-unread-outline"></ion-icon>
+        <ion-label class="ms-3">
+          <h3>Let's study with KidsCourse.</h3>
+        </ion-label>
+      </ion-item>
+    </div>
+  </div>
+</ion-content>

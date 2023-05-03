@@ -1,0 +1,32 @@
+.h2-header{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    width: 100%;
+    top: -0.3%;
+}
+
+.container{
+    background-color: #B9E0FF;
+}
+
+.txt-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card{
+    border: none;
+}
+
+.kepala{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.cont{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 3px 3px 8px #aaaaaa;
+}

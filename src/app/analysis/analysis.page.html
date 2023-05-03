@@ -1,0 +1,32 @@
+<ion-content [fullscreen]="true">
+  <div class="container pt-3 h-100" style="background: #fff8ea">
+    <button [routerLink]="['/home']" class="btn-none">
+      <img src="../../assets/icon/back.png" alt="" width="30px" height="30px" />
+    </button>
+    <div class="content mb-3 d-block">
+      <div class="header-content text-center mt-3">Your Learning Analysis</div>
+      <div class="text-center">
+      </div>
+      <div class="chart mt-4 d-flex">
+        <div class="d-block text-center">
+          <div class="pie animate" style="--p: 90; --c: lightgreen">99%</div>
+          <h3>Letters</h3>
+        </div>
+        <div class="d-block text-center">
+          <div class="pie animate" style="--p: 50; --c: darkgreen">50%</div>
+          <h3>Vocab</h3>
+        </div>
+      </div>
+      <div class="chart mt-4 d-flex">
+        <div class="d-block text-center">
+          <div class="pie animate" style="--p: 50; --c: darkgreen">50%</div>
+          <h3>Numbers</h3>
+        </div>
+        <div class="d-block text-center">
+          <div class="pie animate" style="--p: 75; --c: lightgreen">75%</div>
+          <h3>Shapes</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
